@@ -51,38 +51,50 @@ element.style {
 
 
 /* footer */
+.bgded {
+	background-image:url('../img/coba1.png');
+	display: flex;
+	padding: 35px;
+}
 
-.main-footer menu h3{
+.kontak {
+	flex-basis: 50%;
+	padding-left: 50px;
+}
+
+.kontak p {
 	color: #fff;
-	margin-bottom: 15px;
-	text-align: center;
+	font-size: larger;
 }
-.main-footer-menu a{
-	color: #fff;
-	text-decoration: none;
-}
-.main-footer-menu a:hover{
-	color: #fff;
-}
-.main-footer-menu ul {
-	list-style-type: none;
-	text-align: left;
-	margin-left: 700px;
-}
-.main-footer-menu ul li{
-	margin-bottom: 10px;
-	color: #fff;
-}
-.main-kuy {
-	color: #fff;
-}
-.main-footer-copyright {
-	background-color: #fff;
-	color: #2F099A;
+
+.kontak img {
+	height: 50px;
+	padding-left: 5px;
 }
 
 .tentang {
-	text-align: right;
+	flex-basis: 50%;
+	padding-left: 300px;
+}
+
+.tentang a {
+	text-decoration: none;
+	color: white;
+	font-size: larger
+}
+
+.tentang ul {
+	line-height: 200%;
+}
+
+.tentang ul li {
+	list-style-type: none;
+}
+
+.footer-caption {
+	text-align: center;
+	padding: 5px;
+	background-color: white;
 }
 
 .gambar {
