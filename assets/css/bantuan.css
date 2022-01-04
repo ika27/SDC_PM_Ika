@@ -67,6 +67,7 @@
   .psikotic{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 100px;
     font-weight: bold;
   }
 
@@ -82,3 +83,49 @@
     align-items: center;
   }
 
+/* footer */
+.bgded {
+	background-image:url('../img/coba1.png');
+	display: flex;
+	padding: 35px;
+}
+
+.kontak {
+	flex-basis: 50%;
+	padding-left: 50px;
+}
+
+.kontak p {
+	color: #fff;
+	font-size: larger;
+}
+
+.kontak img {
+	height: 50px;
+	padding-left: 5px;
+}
+
+.tentang {
+	flex-basis: 50%;
+	padding-left: 300px;
+}
+
+.tentang a {
+	text-decoration: none;
+	color: white;
+	font-size: larger
+}
+
+.tentang ul {
+	line-height: 200%;
+}
+
+.tentang ul li {
+	list-style-type: none;
+}
+
+.footer-caption {
+	text-align: center;
+	padding: 5px;
+	background-color: white;
+}
