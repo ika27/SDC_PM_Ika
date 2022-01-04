@@ -1,0 +1,77 @@
+.atas {
+    height: 900px;
+    background-image:url('../img/Group 18.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 70px;
+}
+.kalimat{
+    text-align: center;
+    padding-top: 50px;
+    margin left: 100px ;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.rectangle {
+    height: 650px;
+    width: 100%;
+    background-color: #d6c7ff;
+    text-align: center;
+}
+.profil{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 120px;
+    font-weight: normal;
+}
+.profil .ajeng{
+    flex-basis: 33%;
+    padding-left: 150px;
+    text-align: center;
+
+}
+.profil .ika{
+    flex-basis: 33%;
+    padding-left: 150px;
+    text-align: center;
+}
+.profil .ayu{
+    flex-basis: 33%;
+    padding-left: 150px;
+    text-align: center;
+}
+.percaya{
+    display: flex;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+
+  .percaya .images {
+    flex-basis: 20%;
+    padding-left: 150px;
+    text-align: center;
+  }
+
+  .percaya .kalimat {
+    flex-basis: 80%;
+    padding: 50px 100px 0px 20px;
+    align-items: center;
+  }
+  .pahlawan{
+    display: flex;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+
+  .pahlawan .images {
+    flex-basis: 20%;
+    padding-left: 150px;
+    text-align: center;
+    weight: 300px;
+  }
+
+  .pahlawan .kalimat {
+    flex-basis: 80%;
+    padding: 50px 100px 0px 20px;
+    align-items: center;
+  }
