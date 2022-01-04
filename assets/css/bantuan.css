@@ -1,13 +1,15 @@
   .rectangle {
     height: 120px;
     width: 100%;
-    background-color: #2F099A;
-    opacity: 37%;
+    background-color: #d6c7ff;
+    text-align: center;
   }
 
-  .rectangle .h1 {
-    font-weight: bolder;
+  .rectangle h1 {
+    font-weight: bold;
+    color: black;
     font-size: xx-large;
+    padding-top: 30px;
   }
 
   .anxiety{
